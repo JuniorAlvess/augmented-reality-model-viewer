@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+.demo {
+    background: linear-gradient(#ffffff, #ada996); 
+    overflow-x: hidden;
+}
+
+span {
+    position: absolute; 
+    text-align: center; 
+    font-size: 1rem; 
+    top:50%;
+
+
+}
+
+.model {
+    background-color: unset;
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
