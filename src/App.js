@@ -5,16 +5,19 @@ import './style.css'
 function App() {
   return (
     <>
-
       <div class="demo">
-        {/* <span>Background</span> */}
         <model-viewer
-          class="model"
+          className="model"
           camera-controls
           src={astronauta}
-          ar ar-modes="webxr scene-viewer quick-look"
-          alt="A 3D transparency test">
-
+          reveal="manual"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          alt="A 3D transparency test"
+        >
+          <button slot="ar-button" className="buttonAr">
+          👋 Activate AR
+          </button>
         </model-viewer>
       </div>
     </>
